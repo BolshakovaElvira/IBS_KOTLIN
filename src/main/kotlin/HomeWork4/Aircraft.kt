@@ -1,6 +1,6 @@
 package HomeWork4
 
-open class Aircraft(
+abstract class Aircraft(
     val aircraftNumber: String,
     val maxFlightRange: Double,
     val fuelCapacity: Double
