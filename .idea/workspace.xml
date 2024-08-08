@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e5da18-d280-4c91-9b76-a6a31ab66a33" name="Changes" comment="create repo">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HW_1_2_3/HomeWork_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="52e5da18-d280-4c91-9b76-a6a31ab66a33" name="Changes" comment="homework 1">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork2/exercise10.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork2/exercise11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork2/exercise7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork2/exercise8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork2/exercise9.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork3/exercise12.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork3/exercise13.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork3/exercise14.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork3/exercise15.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork3/exercise16.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HW_1_2_3/HomeWork_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/HomeWork1/HomeWork_1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +44,57 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/b0v/Desktop/ibs/KotlinCourse/src/main/kotlin/HomeWork3",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\b0v\Desktop\ibs\KotlinCourse\src\main\kotlin\HomeWork3" />
+      <recent name="C:\Users\b0v\Desktop\ibs\KotlinCourse\src\main\kotlin\HomeWork2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\b0v\Desktop\ibs\KotlinCourse\src\main\kotlin\HomeWork1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Exercise16Kt">
+    <configuration name="Exercise10Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise10Kt" />
+      <module name="KotlinCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise11Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise11Kt" />
+      <module name="KotlinCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise16Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise16Kt" />
+      <module name="KotlinCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise8Kt" />
+      <module name="KotlinCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise9Kt" />
+      <module name="KotlinCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeWork1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork1Kt" />
       <module name="KotlinCourse" />
@@ -48,20 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork_1Kt" />
-      <module name="KotlinCourse" />
-      <shortenClasspath name="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.HomeWork_1Kt" />
-        <item itemvalue="Kotlin.HomeWork1Kt" />
+        <item itemvalue="Kotlin.Exercise16Kt" />
+        <item itemvalue="Kotlin.Exercise11Kt" />
+        <item itemvalue="Kotlin.Exercise10Kt" />
+        <item itemvalue="Kotlin.Exercise9Kt" />
+        <item itemvalue="Kotlin.Exercise8Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -81,11 +128,19 @@
       <option name="project" value="LOCAL" />
       <updated>1723132038780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework 1">
+      <created>1723133872439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723133872439</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="create repo" />
+    <MESSAGE value="homework 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 1" />
   </component>
 </project>
