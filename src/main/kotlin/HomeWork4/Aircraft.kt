@@ -1,9 +1,9 @@
 package HomeWork4
 
 class Aircraft(
-    val aircraftNumber: String = "1234",
-    val maxFlightRange: Double = 12000.0,
-    val fuelCapacity: Double = 500.0
+    val aircraftNumber: String,
+    val maxFlightRange: Double,
+    val fuelCapacity: Double
 ) {
     val fuelConsumption: Double
         get() {
