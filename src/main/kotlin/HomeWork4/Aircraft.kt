@@ -27,11 +27,11 @@ class Boeing747(
     override val passengerCapacity: Int
 ) : Aircraft(aircraftNumber, maxFlightRange, fuelCapacity), Passenger {
     override fun displayInfo() {
-        println("Aircraft Number: $aircraftNumber")
-        println("Max Flight Range: $maxFlightRange km")
-        println("Fuel Capacity: $fuelCapacity liters")
-        println("Fuel Consumption: $fuelConsumption liters/100 km")
-        println("Passenger Capacity: $passengerCapacity passengers")
+        println("Номер воздушного судна: $aircraftNumber")
+        println("Максимальная дальность полета: $maxFlightRange км")
+        println("Запас топлива: $fuelCapacity литров(а)")
+        println("Расход топлива: $fuelConsumption литров(а) на 100 км")
+        println("Вместимость пассажиров: $passengerCapacity")
     }
 }
 
