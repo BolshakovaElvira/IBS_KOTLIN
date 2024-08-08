@@ -1,9 +1,9 @@
 package HomeWork4
 
 abstract class Aircraft(
-    val aircraftNumber: String,
-    val maxFlightRange: Double,
-    val fuelCapacity: Double
+    protected val aircraftNumber: String,
+    protected val maxFlightRange: Double,
+    protected val fuelCapacity: Double
 ) {
     val fuelConsumption: Double
         get() {
@@ -13,6 +13,7 @@ abstract class Aircraft(
                 0.0
             }
         }
+    abstract fun displayInfo()
 }
 
 interface Passenger {
@@ -25,7 +26,13 @@ class Boeing747(
     fuelCapacity: Double,
     override val passengerCapacity: Int
 ) : Aircraft(aircraftNumber, maxFlightRange, fuelCapacity), Passenger {
-
+    override fun displayInfo() {
+        println("Aircraft Number: $aircraftNumber")
+        println("Max Flight Range: $maxFlightRange km")
+        println("Fuel Capacity: $fuelCapacity liters")
+        println("Fuel Consumption: $fuelConsumption liters/100 km")
+        println("Passenger Capacity: $passengerCapacity passengers")
+    }
 }
 
 
